@@ -1,0 +1,14 @@
+/******************* index *********************/
+
+
+.featured-photos {
+
+    height: 200px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.featured-photos:hover {
+
+    opacity:0.8;
+}
