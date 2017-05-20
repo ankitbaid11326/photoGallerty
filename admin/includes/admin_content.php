@@ -10,20 +10,26 @@
 
 			<?php
 
-//			$user = new User();
-//
-//			$user->username = "NamanRajBaid";
-//			$user->password = "12345";
-//			$user->first_name = "Naman";
-//			$user->last_name = "Baid";
-//
-//			$user->create()
+			$user = new User();
 
-			$user = User::find_user_by_id(6);
-//			$user->last_name = "Raj";
+			$user->username = "shabnam";
+			$user->password = "2121";
+			$user->first_name = "shubham";
+			$user->last_name = "saggezza";
+//
+			$user->create();
+
+//			$user = new User();
+//			$user->username = "Toshi";
+//			$user->save();
+
+//			$user =  User::find_user_by_id(7);
+//			$user->username 	= "Toshi";
+//			$user->password 	= "1111";
+//			$user->first_name 	= "Toshendra";
+//			$user->last_name 	= "Yadav";
 //			$user->update();
 
-			$user->delete();
 
 
 			?>
