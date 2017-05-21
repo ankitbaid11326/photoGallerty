@@ -10,14 +10,13 @@
 
 			<?php
 
-			$user = new User();
-
-			$user->username = "shabnam";
-			$user->password = "2121";
-			$user->first_name = "shubham";
-			$user->last_name = "saggezza";
+//			$user = new User();
 //
-			$user->create();
+//			$user->username = "shabnam";
+//			$user->password = "2121";
+//			$user->first_name = "shubham";
+//			$user->last_name = "saggezza";
+//			$user->create();
 
 //			$user = new User();
 //			$user->username = "Toshi";
