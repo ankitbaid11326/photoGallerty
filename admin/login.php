@@ -11,10 +11,12 @@
 		$password = trim($_POST['password']);
 
 		$user_found = User::verify_user($username, $password);
-                
+
+		print_r($user_found);
+
 		if(!$user_found){
                     $the_message = "Your password or username is incorrect";
-                    
+
 		}else{
 			$session->login($user_found);
 			redirect('index.php');

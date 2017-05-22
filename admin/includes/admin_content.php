@@ -29,7 +29,12 @@
 //			$user->last_name 	= "Yadav";
 //			$user->update();
 
+			$users = User::find_all();
 
+
+			foreach($users as $user){
+				echo $user->username . "<br>";
+			}
 
 			?>
 
